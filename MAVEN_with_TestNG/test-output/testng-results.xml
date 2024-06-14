@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-14T23:57:29 IST" name="Default suite" finished-at="2024-06-14T23:57:29 IST" duration-ms="43">
+    <groups>
+    </groups>
+    <test started-at="2024-06-14T23:57:29 IST" name="Default test" finished-at="2024-06-14T23:57:29 IST" duration-ms="43">
+      <class name="Shivas_Maven.MAVEN_proj.Annotations_Class">
+        <test-method is-config="true" signature="BS2()[pri:0, instance:Shivas_Maven.MAVEN_proj.Annotations_Class@6356695f]" started-at="2024-06-14T23:57:29 IST" name="BS2" finished-at="2024-06-14T23:57:29 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS2 -->
+        <test-method is-config="true" signature="BT4()[pri:0, instance:Shivas_Maven.MAVEN_proj.Annotations_Class@6356695f]" started-at="2024-06-14T23:57:29 IST" name="BT4" finished-at="2024-06-14T23:57:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BT4 -->
+        <test-method is-config="true" signature="BC6()[pri:0, instance:Shivas_Maven.MAVEN_proj.Annotations_Class@6356695f]" started-at="2024-06-14T23:57:29 IST" name="BC6" finished-at="2024-06-14T23:57:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC6 -->
+        <test-method is-config="true" signature="BM8()[pri:0, instance:Shivas_Maven.MAVEN_proj.Annotations_Class@6356695f]" started-at="2024-06-14T23:57:29 IST" name="BM8" finished-at="2024-06-14T23:57:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM8 -->
+        <test-method signature="test1()[pri:0, instance:Shivas_Maven.MAVEN_proj.Annotations_Class@6356695f]" started-at="2024-06-14T23:57:29 IST" name="test1" finished-at="2024-06-14T23:57:29 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="AM9()[pri:0, instance:Shivas_Maven.MAVEN_proj.Annotations_Class@6356695f]" started-at="2024-06-14T23:57:29 IST" name="AM9" finished-at="2024-06-14T23:57:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM9 -->
+        <test-method is-config="true" signature="BM8()[pri:0, instance:Shivas_Maven.MAVEN_proj.Annotations_Class@6356695f]" started-at="2024-06-14T23:57:29 IST" name="BM8" finished-at="2024-06-14T23:57:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM8 -->
+        <test-method signature="test2()[pri:0, instance:Shivas_Maven.MAVEN_proj.Annotations_Class@6356695f]" started-at="2024-06-14T23:57:29 IST" name="test2" finished-at="2024-06-14T23:57:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="AC7()[pri:0, instance:Shivas_Maven.MAVEN_proj.Annotations_Class@6356695f]" started-at="2024-06-14T23:57:29 IST" name="AC7" finished-at="2024-06-14T23:57:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC7 -->
+        <test-method is-config="true" signature="AM9()[pri:0, instance:Shivas_Maven.MAVEN_proj.Annotations_Class@6356695f]" started-at="2024-06-14T23:57:29 IST" name="AM9" finished-at="2024-06-14T23:57:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM9 -->
+        <test-method is-config="true" signature="AT5()[pri:0, instance:Shivas_Maven.MAVEN_proj.Annotations_Class@6356695f]" started-at="2024-06-14T23:57:29 IST" name="AT5" finished-at="2024-06-14T23:57:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT5 -->
+        <test-method is-config="true" signature="AS3()[pri:0, instance:Shivas_Maven.MAVEN_proj.Annotations_Class@6356695f]" started-at="2024-06-14T23:57:29 IST" name="AS3" finished-at="2024-06-14T23:57:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS3 -->
+      </class> <!-- Shivas_Maven.MAVEN_proj.Annotations_Class -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

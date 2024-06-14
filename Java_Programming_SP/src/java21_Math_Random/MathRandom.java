@@ -10,6 +10,7 @@ package java21_Math_Random;
 public class MathRandom {
 
 	public static void main(String[] args) {
+		
 		// TODO Auto-generated method stub
 		System.out.println(Math.PI);
 		
@@ -25,7 +26,7 @@ public class MathRandom {
 		
 		System.out.println(Math.min(46.57, 34.50));
 		
-		System.out.println(Math.random()); // it will give the random value between 0-1
+		System.out.println(Math.random()); // it will give the random value between 0.0 to 1.0
 		
 		
 		
