@@ -9,5 +9,10 @@
   		<artifactId>seleniumWebDriver</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
+  	<dependency>
+  		<groupId>Shivas_Maven</groupId>
+  		<artifactId>MAVEN_proj</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>
