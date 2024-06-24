@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG_Assignments.Sel_Assignments183">
+      <class name="testNG_essencials.CrossBrowserTesting">
         <methods>
-          <include name="Ligin_TO_Amazon"/>
+          <include name="testcase1"/>
         </methods>
-      </class> <!-- testNG_Assignments.Sel_Assignments183 -->
+      </class> <!-- testNG_essencials.CrossBrowserTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
