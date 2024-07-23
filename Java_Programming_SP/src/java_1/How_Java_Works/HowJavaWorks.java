@@ -42,6 +42,8 @@ public class HowJavaWorks {
 	public static void main(String[] args) {
 		
 		System.out.println("JDK, JRE, JVM, JIT, compiler and interpreter \nare the essencials to understand How java internally works");
+	
+	
 	}
 
 }

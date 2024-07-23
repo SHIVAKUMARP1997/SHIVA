@@ -1,67 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-26T02:29:21 IST" name="Suite" finished-at="2024-06-26T02:29:57 IST" duration-ms="35544">
+  <suite started-at="2024-07-20T23:37:59 IST" name="Default suite" finished-at="2024-07-20T23:38:03 IST" duration-ms="4415">
     <groups>
     </groups>
-    <test started-at="2024-06-26T02:29:21 IST" name="Test" finished-at="2024-06-26T02:29:57 IST" duration-ms="35544">
-      <class name="amazon_Scenarios.Amazon_Scene3">
-        <test-method is-config="true" signature="Amazon_Login()[pri:0, instance:amazon_Scenarios.Amazon_Scene3@4dc8caa7]" started-at="2024-06-26T02:29:21 IST" name="Amazon_Login" finished-at="2024-06-26T02:29:26 IST" duration-ms="4369" status="PASS">
+    <test started-at="2024-07-20T23:37:59 IST" name="Default test" finished-at="2024-07-20T23:38:03 IST" duration-ms="4415">
+      <class name="pom_Amazon_scene.Case1">
+        <test-method signature="Login_With_Credentials()[pri:0, instance:pom_Amazon_scene.Case1@130161f7]" started-at="2024-07-20T23:37:59 IST" name="Login_With_Credentials" finished-at="2024-07-20T23:38:03 IST" duration-ms="4389" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[need to create an account expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: need to create an account expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertFalse(Assert.java:67)
+at pom_Amazon_Example.Amazon_Login_Page.UN(Amazon_Login_Page.java:34)
+at pom_Amazon_scene.Case1.Login_With_Credentials(Case1.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Amazon_Login -->
-        <test-method signature="Scene3()[pri:3, instance:amazon_Scenarios.Amazon_Scene3@4dc8caa7]" started-at="2024-06-26T02:29:26 IST" name="Scene3" finished-at="2024-06-26T02:29:27 IST" duration-ms="979" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Scene3 -->
-        <test-method is-config="true" signature="Amazon_Close()[pri:0, instance:amazon_Scenarios.Amazon_Scene3@4dc8caa7]" started-at="2024-06-26T02:29:27 IST" name="Amazon_Close" finished-at="2024-06-26T02:29:28 IST" duration-ms="1344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Amazon_Close -->
-      </class> <!-- amazon_Scenarios.Amazon_Scene3 -->
-      <class name="amazon_Scenarios.Amazon_Scene4">
-        <test-method is-config="true" signature="Amazon_Login()[pri:0, instance:amazon_Scenarios.Amazon_Scene4@1506f20f]" started-at="2024-06-26T02:29:28 IST" name="Amazon_Login" finished-at="2024-06-26T02:29:34 IST" duration-ms="5593" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Amazon_Login -->
-        <test-method signature="Scene4()[pri:4, instance:amazon_Scenarios.Amazon_Scene4@1506f20f]" started-at="2024-06-26T02:29:34 IST" name="Scene4" finished-at="2024-06-26T02:29:35 IST" duration-ms="893" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Scene4 -->
-        <test-method is-config="true" signature="Amazon_Close()[pri:0, instance:amazon_Scenarios.Amazon_Scene4@1506f20f]" started-at="2024-06-26T02:29:35 IST" name="Amazon_Close" finished-at="2024-06-26T02:29:36 IST" duration-ms="1055" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Amazon_Close -->
-      </class> <!-- amazon_Scenarios.Amazon_Scene4 -->
-      <class name="amazon_Scenarios.Amazon_Scene1">
-        <test-method is-config="true" signature="Amazon_Login()[pri:0, instance:amazon_Scenarios.Amazon_Scene1@788fcafb]" started-at="2024-06-26T02:29:36 IST" name="Amazon_Login" finished-at="2024-06-26T02:29:44 IST" duration-ms="7962" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Amazon_Login -->
-        <test-method signature="scene1()[pri:1, instance:amazon_Scenarios.Amazon_Scene1@788fcafb]" started-at="2024-06-26T02:29:44 IST" name="scene1" finished-at="2024-06-26T02:29:45 IST" duration-ms="1731" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scene1 -->
-        <test-method is-config="true" signature="Amazon_Close()[pri:0, instance:amazon_Scenarios.Amazon_Scene1@788fcafb]" started-at="2024-06-26T02:29:45 IST" name="Amazon_Close" finished-at="2024-06-26T02:29:47 IST" duration-ms="1201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Amazon_Close -->
-      </class> <!-- amazon_Scenarios.Amazon_Scene1 -->
-      <class name="amazon_Scenarios.Amazon_Scene2">
-        <test-method is-config="true" signature="Amazon_Login()[pri:0, instance:amazon_Scenarios.Amazon_Scene2@15eebbff]" started-at="2024-06-26T02:29:47 IST" name="Amazon_Login" finished-at="2024-06-26T02:29:54 IST" duration-ms="7572" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Amazon_Login -->
-        <test-method signature="Scene2()[pri:2, instance:amazon_Scenarios.Amazon_Scene2@15eebbff]" started-at="2024-06-26T02:29:54 IST" name="Scene2" finished-at="2024-06-26T02:29:56 IST" duration-ms="1608" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Scene2 -->
-        <test-method is-config="true" signature="Amazon_Close()[pri:0, instance:amazon_Scenarios.Amazon_Scene2@15eebbff]" started-at="2024-06-26T02:29:56 IST" name="Amazon_Close" finished-at="2024-06-26T02:29:57 IST" duration-ms="1191" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Amazon_Close -->
-      </class> <!-- amazon_Scenarios.Amazon_Scene2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Login_With_Credentials -->
+      </class> <!-- pom_Amazon_scene.Case1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

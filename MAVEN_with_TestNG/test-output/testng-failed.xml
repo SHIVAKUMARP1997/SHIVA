@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="amazon_Scenarios.Amazon_Scene3">
+      <class name="pom_Amazon_scene.Case1">
         <methods>
-          <include name="Scene3"/>
-          <include name="Amazon_Login"/>
+          <include name="Login_With_Credentials"/>
         </methods>
-      </class> <!-- amazon_Scenarios.Amazon_Scene3 -->
+      </class> <!-- pom_Amazon_scene.Case1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -7,7 +7,7 @@ public class Assersions_ {
 	
 	@Test
 	public void shiva() {
-		
+		//How to fail a testcase.
 		Assert.assertTrue(false);
 		Assert.assertFalse(false);
 		
