@@ -2,6 +2,7 @@ package java36_ArrayList_and_CollectionsClass;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /*
  * 
@@ -66,7 +67,7 @@ iterator()- it is used to get an iterator over the elements in the list in a pro
 public class ArrayList_Sort {
 
 	public static void main(String[] args) {
-		ArrayList a1 = new ArrayList();
+		List<Integer> a1 = new ArrayList<Integer>();
 		a1.add(986);
 		a1.add(6);
 		a1.add(256);
@@ -80,10 +81,18 @@ public class ArrayList_Sort {
 		//Sorting Using Collections-Class
 		Collections.sort(a1); //collections class, where as collection is an iterface.
 		
-		a1.set(0, "shiva"); //setting the value at indext position 0.
+		//a1.set(0, "shiva"); //setting the value at indext position 0.
 		
 		//Collections.sort(a1); Collection not works with heterogenous values since shiva is string.
-		System.out.println(a1);
+		System.out.println(a1+"\n");
+		
+		for(Integer number : a1) {
+			System.out.println(number);
+		}
+		
+		
+		
+		
 	}
 
 }

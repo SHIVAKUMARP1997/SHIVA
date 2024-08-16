@@ -9,21 +9,20 @@ public class Right_angle_Pattern {
 	 System.out.println("Enter the Value for n \n");
 	 int rows = sc.nextInt();
 	 
-		    for(int i = rows; i >= 1; --i) {
-		      for(int space = 1; space <= rows - i; ++space) {
-		        System.out.print("  ");
-		      }
-
-		      for(int j=i; j <= 2 * i - 1; ++j) {
-		        System.out.print("* ");
-		      }
-
-		      for(int j = 0; j < i - 1; ++j) {
-		        System.out.print("* ");
-		      }
-
-		      System.out.println();
-		    }
+	 for (int i = rows; i >= 1; i--) {
+         // Printing spaces
+         for (int j = 0; j < rows - i; j++) {
+             System.out.print(" ");
+         }
+         
+         // Printing stars
+         for (int k = 0; k < ( 2 * i - 1); k++) {
+             System.out.print("*");
+         }
+         
+         // Moving to the next line
+         System.out.println();
+     }
 	 sc.close();
    }
 
