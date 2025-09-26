@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'Slave-Machine' }
+    agent { label 'agent-slave' }
 
     environment {
         GIT_REPO = 'https://github.com/PixelShiv/DevOps.git'   // change if needed
