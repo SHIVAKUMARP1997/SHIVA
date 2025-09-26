@@ -2,8 +2,8 @@ pipeline {
     agent { label 'myAgent' }
 
     environment {
-        GIT_REPO = 'https://github.com/PixelShiv/DevOps.git'   // change if needed
-        BRANCH   = 'master'
+        GIT_REPO = 'https://github.com/PixelShiv/SHIVA_JavaProject.git'   // change if needed
+        BRANCH   = 'main'
     }
 
     stages {
